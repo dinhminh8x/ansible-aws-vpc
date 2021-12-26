@@ -102,8 +102,8 @@
 
     - name: Setup public subnet route table
       ec2_vpc_route_table:
-        vpc_id: "{{vpcout.vpc.id}}"
-        region: "{{region}}"
+        vpc_id: "{{ vpcout.vpc.id}}"
+        region: "{{ region }}"
         tags:
           Name: VProfile-PubRT
         subnets:
