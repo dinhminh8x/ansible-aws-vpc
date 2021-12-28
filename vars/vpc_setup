@@ -20,3 +20,8 @@ zone2: ap-southeast-1b
 zone3: ap-southeast-1c
 
 state: present
+
+# Bastion Vars
+bastion_ami: ami-0dc5785603ad4ff54
+region: ap-southeast-1
+MYIP: 116.96.89.65/32
