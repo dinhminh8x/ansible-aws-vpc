@@ -23,5 +23,4 @@ state: present
 
 # Bastion Vars
 bastion_ami: ami-0dc5785603ad4ff54
-region: ap-southeast-1
 MYIP: 116.96.89.65/32
